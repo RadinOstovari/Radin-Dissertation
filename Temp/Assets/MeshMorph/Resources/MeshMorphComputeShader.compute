@@ -1,0 +1,64 @@
+﻿// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel CalculateVertices
+
+#define RANDOMNESS_MULTIPLIER 0.9
+
+// we keep morphFromVertices here and then we fill the results here
+RWStructuredBuffer<float3> vertexBuffer;
+StructuredBuffer<float3> morphToVertexBuffer;
+
+float morph;
+int verticesMode; // 0 - parallel, 1 - mix, 2 - oneByOne
+
+
+float randomness;
+
+
+float RandomValue(float n)
+{
+    return frac(sin(n) * 43758.5453123);
+}
+
+
+[numthreads(32, 1, 1)]
+void CalculateVertices(uint3 id : SV_DispatchThreadID)
+{
+
+	// parallel linear mode
+    float3 startPosition = vertexBuffer[id.x].xyz;
+    float3 finalPosition = morphToVertexBuffer[id.x].xyz;
+    float randomValue = RandomValue(id.x); // random value from random function (using id as seed)
+
+
+    if (verticesMode != 2) // not onByOne
+    {
+        float randomOffset = verticesMode * RANDOMNESS_MULTIPLIER * randomValue;
+        float morphAfterRandomness = morph <= randomOffset ? 0.0f : ((morph - randomOffset) / (1 - randomOffset));
+        vertexBuffer[id.x].xyz = lerp(startPosition, finalPosition, morphAfterRandomness);
+    }
+    else
+    {
+        uint verticesAmount;
+        uint stride; // not used
+        vertexBuffer.GetDimensions(verticesAmount, stride);
+
+
+        int currentVertexMoving = morph * verticesAmount;
+        if (currentVertexMoving == id.x)
+        {
+            float realVertexLerpPosition = morph * verticesAmount;
+            vertexBuffer[id.x].xyz = lerp(finalPosition, startPosition, 1 - (realVertexLerpPosition - currentVertexMoving));
+        }
+        else
+        {
+            vertexBuffer[id.x].xyz = id.x > currentVertexMoving ? startPosition : finalPosition;
+        }
+
+    }
+
+}
+
+
+
+
+
