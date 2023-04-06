@@ -8,3 +8,4 @@ Cmd: compileComputeKernel
   error: 1 plat 14 at MeshMorphComputeShader.compute(54): signed/unsigned mismatch, unsigned assumed
  ok=0 outsize=0
 
+Cmd: shutdown

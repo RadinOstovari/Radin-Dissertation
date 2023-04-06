@@ -52,6 +52,7 @@ namespace MeshMorpher
 
 		private TrianglesProvider trianglesProviderFrom;
 		private TrianglesProvider trianglesProviderTo;
+		private float finalMorph = 20f;
 
 
 		// temporary values used for calculation - to prevent extra memory allocation
@@ -83,6 +84,8 @@ namespace MeshMorpher
 
 		private void Awake()
 		{
+			int mymorphValue = PlayerPrefs.GetInt("MyMorph");
+			finalMorph = (float)mymorphValue;
 			UpdateMorphController();
 		}
 
@@ -125,8 +128,8 @@ namespace MeshMorpher
 		public void UpdateMorphController()
 		{
 			UpdateMeshes();
-			MeshMorph();
-			//StartCoroutine(SetMeshMorphValue(1.0f, 5.0f));
+			//MeshMorph();
+			StartCoroutine(SetMeshMorphValue(1.0f, finalMorph));
 		}
 
 		/// <summary>

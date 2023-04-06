@@ -15,11 +15,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Sphere False.unity
     guid: eb4cc762f66f445bdb51da392f1b82b1
   - enabled: 1
-    path: Assets/Scenes/Cube False.unity
-    guid: a37524911660740ea8902ee5694be33b
-  - enabled: 1
     path: Assets/Scenes/Cube True.unity
     guid: fd703a56e879d4decad6e4f05d2dd7da
+  - enabled: 1
+    path: Assets/Scenes/Cube False.unity
+    guid: a37524911660740ea8902ee5694be33b
   - enabled: 1
     path: Assets/Scenes/Pyramid True.unity
     guid: 8b0048f78ea0940e097fc84c9a0c8f41
@@ -56,6 +56,30 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Helicopter Morph False.unity
     guid: b756e6c17ab702d43b3a5a46c9c359a2
+  - enabled: 1
+    path: Assets/Scenes/Convo Sound T.unity
+    guid: a362592d858d24034aa4620960e14aab
+  - enabled: 1
+    path: Assets/Scenes/Convo Sound F.unity
+    guid: f1ac3c2f28fc04aa99ce081f3e33f86a
+  - enabled: 1
+    path: Assets/Scenes/Cow Sound T.unity
+    guid: 8f5f6e5801f1140659e819ca91cdfbd9
+  - enabled: 1
+    path: Assets/Scenes/Cow Sound F.unity
+    guid: 4598cb29b8213448f89b18b9ad5c0395
+  - enabled: 1
+    path: Assets/Scenes/Plane Sound T.unity
+    guid: 77b66ccfd41c44d7c828636df04fea98
+  - enabled: 1
+    path: Assets/Scenes/Plane Sound F.unity
+    guid: 4999b5407952a4af593f302d12610577
+  - enabled: 1
+    path: Assets/Scenes/Police Sound T.unity
+    guid: 23deb1a751298401a8f36dd3edc9f808
+  - enabled: 1
+    path: Assets/Scenes/Police Sound F.unity
+    guid: 0056a2857a28240b592495fffb177862
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}

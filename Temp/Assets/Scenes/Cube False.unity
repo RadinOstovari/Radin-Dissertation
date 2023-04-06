@@ -309,7 +309,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fad207e15aac14aa58c4f7830e3d5f3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSceneIndex: 4
 --- !u!114 &132819546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -324,7 +323,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultTransparency: 0
   laterTransparency: 1
-  delayer: 5
 --- !u!136 &132819547
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -456,7 +454,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 352148294}
-  delay: 5
 --- !u!114 &352148294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -860,7 +857,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: A Cube will start fading in after the blue flash. Press the spacebar when
-    you believe you've seen the cube
+    you believe you've seen the cube.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

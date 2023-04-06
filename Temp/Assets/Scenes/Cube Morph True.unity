@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028305, g: 0.22571313, b: 0.3069213, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -309,7 +309,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fad207e15aac14aa58c4f7830e3d5f3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSceneIndex: 12
 --- !u!95 &226118930
 Animator:
   serializedVersion: 5
@@ -466,7 +465,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 352148294}
-  delay: 5
 --- !u!114 &352148294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -869,8 +867,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A Cube will start fading in after the blue flash. Press the spacebar when
-    you believe you've seen the cube
+  m_text: The sphere will start morphing into a cube after the blue flash. Press
+    the spacebar when you believe you've seen the cube.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

@@ -6,7 +6,7 @@ using TMPro;
 public class ElapsedTime : MonoBehaviour
 {
     public TextMeshProUGUI timerText;
-    public float delay = 5f;
+    private float delay = 10f;
 
     private float startTime;
     private float elapsedTime;
