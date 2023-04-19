@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Cow Sound F.unity
+- path: Assets/Scenes/Police Sound T.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
