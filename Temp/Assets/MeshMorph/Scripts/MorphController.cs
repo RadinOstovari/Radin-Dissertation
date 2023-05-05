@@ -191,6 +191,7 @@ namespace MeshMorpher
 		/// <returns></returns>
 		public IEnumerator SetMeshMorphValue(float newValue, float time)
 		{
+			yield return new WaitForSeconds(10);
 			float startValue = morph;
 			float curTime = 0.0f;
 			while (curTime <= time)

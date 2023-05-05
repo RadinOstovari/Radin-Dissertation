@@ -46,7 +46,7 @@ public class SceneChanger : MonoBehaviour
             savedList.RemoveAt(randomIndex);
             //string updatedJsonList = JsonUtility.ToJson(savedList);
             string updatedList = string.Join(",", savedList.Select(i => i.ToString()).ToArray());
-            PlayerPrefs.SetString("myList", updatedList);
+            PlayerPrefs.SetString("MyList", updatedList);
             /*while (true)
             {
                 int index = Array.IndexOf(myArray, nextSceneIndex);

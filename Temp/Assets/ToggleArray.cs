@@ -173,7 +173,7 @@ public class ToggleArray : MonoBehaviour
                     //myArray[0] = 1;
                     //myArray[1] = 2;
                     scenesList.Add(1);
-                    scenesList.Add(2);
+                    //scenesList.Add(2);
                 }
                 /*else if (!toggle1.isOn)
                 {
@@ -185,7 +185,7 @@ public class ToggleArray : MonoBehaviour
                     //myArray[2] = 3;
                     //myArray[3] = 4;
                     scenesList.Add(3);
-                    scenesList.Add(4);
+                    //scenesList.Add(4);
                 }
                 /*else if (!toggle2.isOn)
                 {
@@ -197,7 +197,7 @@ public class ToggleArray : MonoBehaviour
                     //myArray[4] = 5;
                     //myArray[5] = 6;
                     scenesList.Add(5);
-                    scenesList.Add(6);
+                    //scenesList.Add(6);
                 }
                 /*else if (!toggle3.isOn)
                 {
@@ -209,7 +209,7 @@ public class ToggleArray : MonoBehaviour
                     //myArray[6] = 7;
                     //myArray[7] = 8;
                     scenesList.Add(7);
-                    scenesList.Add(8);
+                    //scenesList.Add(8);
                 }
                 /*else if (!toggle4.isOn)
                 {
@@ -221,7 +221,7 @@ public class ToggleArray : MonoBehaviour
                     //myArray[8] = 9;
                     //myArray[9] = 10;
                     scenesList.Add(9);
-                    scenesList.Add(10);
+                    //scenesList.Add(10);
                 }
                 /*else if (!toggle5.isOn)
                 {
@@ -233,7 +233,7 @@ public class ToggleArray : MonoBehaviour
                     //myArray[10] = 11;
                     //myArray[11] = 12;
                     scenesList.Add(11);
-                    scenesList.Add(12);
+                    //scenesList.Add(12);
                 }
                 /*else if (!toggle6.isOn)
                 {
@@ -245,7 +245,7 @@ public class ToggleArray : MonoBehaviour
                     //myArray[12] = 13;
                     //myArray[13] = 14;
                     scenesList.Add(13);
-                    scenesList.Add(14);
+                    //scenesList.Add(14);
                 }
                 /*else if (!toggle7.isOn)
                 {
@@ -257,27 +257,27 @@ public class ToggleArray : MonoBehaviour
                     //myArray[14] = 15;
                     //myArray[15] = 16;
                     scenesList.Add(15);
-                    scenesList.Add(16);
+                    //scenesList.Add(16);
                 } 
                 if (toggle9.isOn)
                 {
                     scenesList.Add(17);
-                    scenesList.Add(18);
+                    //scenesList.Add(18);
                 } 
                 if (toggle10.isOn)
                 {
                     scenesList.Add(19);
-                    scenesList.Add(20);
+                    //scenesList.Add(20);
                 } 
                 if (toggle11.isOn)
                 {
                     scenesList.Add(21);
-                    scenesList.Add(22);
+                    //scenesList.Add(22);
                 } 
                 if (toggle12.isOn)
                 {
                     scenesList.Add(23);
-                    scenesList.Add(24);
+                    //scenesList.Add(24);
                 } 
             }
             
