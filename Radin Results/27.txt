@@ -1,0 +1,11 @@
+Fade Cube = 12.69, 12.45, 11.33 
+Fade Sphere = 8.49, 13.57, 13.29  
+Fade Pyramid = 5.24, 5.37, 4.91  
+Fade Helicopter = 5.35, 5.10, 4.96 
+Morph Cube =  17,87, 16.23, 16.41  
+Morph Sphere = 14.14, 14.58, 14.62  
+Morph Pyramid = 11.06, 10.80, 10.55  
+Sound Cow = 9.70, 18.74, 17.77  
+Sound Plane = 17.64, 17.25, 17.43 
+Sound Conversation = 10.74, 10.52, 10.10 
+Sound Police = 20.34, 19.71, 19.22 
