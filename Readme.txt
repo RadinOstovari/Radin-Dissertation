@@ -1,0 +1,3 @@
+Our program starts with the initial start scene in order to choose all related settings for the program. After the settings have been selected, by the press of the enter key,
+the suggestibility scale will start. For the suggestibility scale, on each scene the press of the space bar will stop the timer, the time can be recorded and then by the press
+of the enter key, the next scene will start. This will go on until all repetitions of each scene have been shown.
